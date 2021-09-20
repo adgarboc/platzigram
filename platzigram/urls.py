@@ -24,7 +24,7 @@ from users import views as users_views
 
 urlpatterns = [
                   path(
-                      '',
+                      'users/login/',
                       users_views.login_view
                   ),
                   path(
@@ -47,7 +47,7 @@ urlpatterns = [
                       name='hi'
                   ),
                   path(
-                      'posts/',
+                      '',
                       posts_views.list_posts,
                       name='feed'
 
